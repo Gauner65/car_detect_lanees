@@ -35,25 +35,17 @@ The goals / steps of this project are the following:
 ![alt text][image2]
 
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
-
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
 
 
 ###2. Identify potential shortcomings with your current pipeline
 
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+* currently only working for strait lanes since only first order line fitting is used (possible to extend to higher order)
+* image ROI might not fit for all scenarios
+* only ego lane is detected
 
 
 ###3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+ * higher order lane fitting
+ * additional outlier filter like ransac
 
-Another potential improvement could be to ...
