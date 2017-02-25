@@ -48,4 +48,4 @@ The goals / steps of this project are the following:
 
  * higher order lane fitting
  * additional outlier filter like ransac
-
+ * averaging in order to stabilize outcome
