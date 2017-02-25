@@ -16,12 +16,23 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
-
+[image1]: ./examples/grayscale.jpg "Grayscale"
 ---
 
 ### Reflection
 
-###1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+###1. In the following I describe my pipline to detect the ego lanes on a strait road:
+
+1. convert image to grayscale
+2. apply a gaussian noise kernel of size 5
+3. detect edges within the image with the canny edge function implementation from opencv
+4. apply a quadrilateral image mask as a ROI
+5. use the hough transform to detect lines
+6. to seperate the left and right lanes I apply a filter threshold on the slope
+7. fitting a line through all points
+8. plot the results
+
+
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
 
