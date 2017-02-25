@@ -16,7 +16,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image2]: ./result.jpg "Result"
 ---
 
 ### Reflection
@@ -32,6 +32,7 @@ The goals / steps of this project are the following:
 7. fitting a line through all points
 8. plot the results
 
+![alt text][image2]
 
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
